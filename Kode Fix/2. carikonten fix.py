@@ -26,7 +26,7 @@ chrome_service = ChromeService(executable_path=PATH)
 driver = webdriver.Chrome(service=chrome_service, options=options)
 
 # Baca URL dan Title dari CSV dan lakukan scraping pada tiap URL
-input_csv_file = r'C:\Users\Lenovo\Documents\Deep-Learning-Project\Split Dataset\split_part_8.csv'
+input_csv_file = r'C:\Users\Lenovo\Documents\Deep-Learning-Project\Split Dataset\split_part_14.csv'
 
 # Mengambil nama file tanpa ekstensi
 base_filename = os.path.splitext(os.path.basename(input_csv_file))[0]
